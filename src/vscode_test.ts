@@ -1,13 +1,8 @@
 
-export class VSCODE_TEST {
 
+function processCommandLine() {
 
-    constructor() { }
-
-
-    public start( ) : void
-    {
-    }
-
-
+    console.log("vscode test");    
 }
+
+processCommandLine();
