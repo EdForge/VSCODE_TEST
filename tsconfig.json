@@ -1,0 +1,18 @@
+{
+    "exclude": [
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+		"module": "system",
+		"target": "es6",
+		"sourceMap": true,
+		"declaration": true,
+        // "outDir": "./lib",
+        "outFile": "../dist/vscode_test.js",        
+		"lib": [ "es2015", "dom" ],	
+        "noImplicitAny": true,
+        "removeComments":true
+    }
+}
